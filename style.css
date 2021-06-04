@@ -78,13 +78,15 @@ a:hover {
   display: flex;
   flex-direction: row;
   margin: 10px 20px;
+  flex-wrap: wrap;
 }
 .product-card {
   /* width: 185px; */
-  width: 20%;
+  text-decoration: none;
+  color: black;
+  width: 15%;
   height: 250px;
   margin: 10px;
-  /* border: 1px solid black; */
   border-radius: 10px;
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -147,8 +149,15 @@ a:hover {
     margin-right: 0;
     padding-left: 0;
   }
+  .product {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 20px;
+    flex-wrap: wrap;
+  }
   .product-card {
-    width: 100px;
+    width: 43.5%;
+    height: 200px;
     margin: 10px;
     /* border: 1px solid black; */
     border-radius: 10px;
@@ -157,7 +166,7 @@ a:hover {
   }
   .product-image {
     border-radius: 10px;
-    width: 100px;
+    width: 100%;
     height: 100px;
   }
   .nav-link {
